@@ -1,0 +1,36 @@
+{
+  "name": "webpack-dll-example",
+  "version": "1.0.0",
+  "description": "webpack dllexample\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[De\u001b\u001b[\u001b[C\u001b[\u001b[3~\u001b[3~\u001b[3~\u001b[3~\u001b[\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[Dx\u001b[2~\u001b[D\u001b[D\u001b[D\u001b[D\u001b[3~\u001b[3\u001b[6~\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C example",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --inline --progress --color --config webpack.dev.config.js",
+    "build": "webpack --config webpack.pro.config.js",
+    "dll": "webpack --config webpack.dll.config.js"
+  },
+  "author": "qianduanka",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-router-dom": "^5.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.13.14",
+    "@babel/plugin-transform-modules-commonjs": "^7.13.8",
+    "@babel/plugin-transform-runtime": "^7.13.10",
+    "@babel/preset-env": "^7.13.12",
+    "@babel/preset-react": "^7.13.13",
+    "@babel/runtime": "^7.13.10",
+    "@babel/runtime-corejs2": "^7.13.10",
+    "babel-loader": "^8.2.2",
+    "clean-webpack-plugin": "^3.0.0",
+    "copy-webpack-plugin": "^8.1.1",
+    "html-webpack-plugin": "^5.3.1",
+    "webpack": "^5.30.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.2",
+    "webpack-merge": "^5.7.3"
+  }
+}
